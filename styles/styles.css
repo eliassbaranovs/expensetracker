@@ -62,20 +62,8 @@ input, select {
     width: 100%;
 }
 
-button[type="submit"] {
-    background-color: #2b7a78;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-button[type="submit"]:hover {
-    background-color: #3aafa9;
-}
+
 
 /* Expense List Section */
 .expense-list-section {

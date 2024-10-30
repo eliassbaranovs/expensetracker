@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+<script src="https://cdn.tailwindcss.com"></script>
     <title>Expense Tracker</title>
 </head>
 <body>
     <header>
         <h1>Expense Tracker</h1>
         <div class="total-expense">
-            <p>Total: $<span id="total-amount">0.00</span></p>
+            <p>Total: €<span id="total-amount">0.00</span></p>
         </div>
     </header>
 
@@ -23,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label for="amount">Amount:</label>
-                <input type="number" id="amount" name="amount" placeholder="e.g. 50.00" required>
+                <input type="number" id="amount" name="amount" placeholder="e.g. 50.00" step="0.01" required>
             </div>
             <div class="form-group">
                 <label for="category">Category:</label>
@@ -39,7 +40,7 @@
                 <label for="date">Date:</label>
                 <input type="date" id="date" name="date" required>
             </div>
-            <button id="submit-expense" type="submit">Add Expense</button>
+            <button id="submit-expense" type="submit"><img src="./assets/plus.png" class="w-12 h-12" alt=""></button>
         </form>
     </section>
 
